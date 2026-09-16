@@ -18,9 +18,30 @@ Requirements:
 
 ## Setup
 
+Install Node.js 22 or newer, then run:
+
 ```bash
+git clone https://github.com/Natchanan001/test-form-submission.git
+cd test-form-submission
 npm install
 ```
+
+## Run the example
+
+```bash
+npm start
+```
+
+This compiles the TypeScript code and runs the example in `src/index.ts`.
+
+Expected output:
+
+```text
+[1,2,3,4,5,6,7,8,9]
+```
+
+To try other inputs, change the arrays in `src/index.ts` and run `npm start` again.
+Keep the first two arrays ascending and the third array descending.
 
 ## Run unit tests
 
